@@ -1,1 +1,1 @@
-Calculadora de Prestamos con JS
+Pagina de compras de pagina web con javascript
