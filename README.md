@@ -1,1 +1,1 @@
-Pagina de compras de pagina web con javascript
+Ecommerce utilizando HTML, JS y CSS
