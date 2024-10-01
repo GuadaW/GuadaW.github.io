@@ -5,15 +5,15 @@
         "image": "./assets/img/mesa-alaia1.webp",
         "tipo": "Mesa",
         "nombre": "Alaia",
-        "precio": 1690,
-        "cantidad": 5
+        "precio": 2500,
+        "cantidad": 8
     },
     {
         "id": 2,
         "image": "./assets/img/mesa-anit1.webp",
         "tipo": "Mesa",
         "nombre": "Anit",
-        "precio": 665,
+        "precio": 1665,
         "cantidad": 7
     },
     {
@@ -26,10 +26,10 @@
     },
     {
         "id": 4,
-        "image": "./assets/img/silla-ralf1.webp"
+        "image": "./assets/img/silla-ralf1.webp",
         "tipo": "Silla",
         "nombre": "Ralf",
-        "precio": 180,
+        "precio": 1800,
         "cantidad": 20
     },
     {
@@ -37,7 +37,7 @@
         "image": "./assets/img/silla-nayme1.webp",
         "tipo": "Silla",
         "nombre": "Nayme",
-        "precio": 275,
+        "precio": 2275,
         "cantidad": 20
     },
     {
@@ -45,7 +45,7 @@
         "image": "./assets/img/cuadro-lorelai1.webp",
         "tipo": "Cuadro",
         "nombre": "Lorelai",
-        "precio": 85,
+        "precio": 1785,
         "cantidad": 10
     },
     {
@@ -53,23 +53,23 @@
         "image": "./assets/img/escritorio-curie1.webp",
         "tipo": "Escritorio",
         "nombre": "Curie",
-        "precio": 586,
-        "cantidad": 15
+        "precio": 5867,
+        "cantidad": 16
     },
     {
         "id": 8,
         "image": "./assets/img/sofa-gilma1.webp",
         "tipo": "Sofa",
         "nombre": "Gilma",
-        "precio": 1535,
-        "cantidad": 10
+        "precio": 1540,
+        "cantidad": 12
     },
     {
         "id": 9,
         "image": "./assets/img/escritorio-dyana1.webp",
         "tipo": "Escritorio",
         "nombre": "Dyana",
-        "precio": 936,
-        "cantidad": 15
+        "precio": 3400,
+        "cantidad": 20
     }
 ]
