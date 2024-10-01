@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>BLANCHERRIE | Muebles de Diseño</title>
+</head>
+<body>
+    <div id="main">
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <div class="logo-container">
+                        <img class="logoImg" src="./assets/icons/logo-book.png" alt="Logo">
+                        <h1>BLANCHERRIE</h1>
+                    </div>
+                    <div class="navOptions">
+                        <ul>
+                            <li id="btnTodos"><a href="#">Todos</a></li>
+                            <li id="btnMesa"><a href="#">Mesas</a></li>
+                            <li id="btnSillas"><a href="#">Sillas</a></li>
+                            <li id="btnSofas"><a href="#">Sofás</a></li>
+                            <li id="btnDeco"><a href="#">Decoración</a></li>
+                            <li id="btnEscrit"><a href="#">Escritorios</a></li>
+                        </ul>
+                    </div>
+                    <div class="searchAndUser">
+                        <label for="buscarInput"></label>
+                        <input id="searchBar" type="text" class="searchInput" name="buscarInput" placeholder="Buscar productos..">
+                        <img id="btnModal" class="navIcon" src="./assets/icons/user.png" alt="Icono usuario" title="Usuario">
+                        <img id="btnShop" class="navIcon" src="./assets/icons/cart.png" onclick="openNav()" alt="Carrito de compras" title="Carrito de compras">
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+        
+            <section>
+                <div id="sidenavCart" class="sidenav">
+                    <span class="modal-close closebtn" onclick="closeNav()">&times;</span>
+                    <div class="sidenav-title">
+                        <h4>Tu carrito de compras</h4>
+                        <img id="emptyCart" class="list-empty hidden" src="./assets/icons/carro-vacio.png" alt="Vaciar carrito" title="Vaciar carrito">
+                    </div>
+                    <div class="table-container">
+                        <div>
+                            <div class="list-title">
+                                <div>
+                                    <p><strong>Artículos <span id="totalItemsInCart"></span></strong></p>
+                                </div>
+                                <div>
+                                    <p><strong>Cantidad</strong></p>
+                                </div>
+                                <div>
+                                    <p><strong>Precio</strong></p>
+                                </div>
+                            </div>
+                            <div id="cartEmpty" class="sidenav-empty">
+                                <p>Aún no has agregado artículos a tu compra.</p>
+                            </div>
+                        
+                            <div id="list-allProducts">
+                            </div>
+                        </div>
+                     
+                        <div id="cart-footer" class="hidden list-shop">
+                            <div>
+                                <p>Cantidad total de artículos: <span id="totalProducts"></span></p>
+                                <p><strong>Precio final: <span id="totalPrice">U$S</span></strong></p>
+                            </div>
+                            <div>
+                                <button id="cart-buy" class="cart-btn" type="submit">Continuar con la compra</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div id="cardContainer" class="cardSection">
+                </div>
+            </section>
+    
+            <section class="mainInfo">
+                <img class="mainImg" src="./assets/img/living-unsplash.jpg" alt="Imagen living">
+            </section>
+
+            <div id="userModal" class="modal">
+                <div class="modal-content">
+                    <span id="modalCross" class="modal-close">&times;</span>
+                    <form id="registerForm">
+                        <div class="login-form">
+                            <label for="uname"><b>Nombre de Usuario</b></label>
+                            <input id="userName" class="form-input" type="text" name="uname" required>
+                            
+                            <label for="psw"><b>Contraseña</b></label>
+                            <input id="userPsw" class="form-input" type="password" name="psw" required>
+                    
+                            <button id="userRegister" class="login-button" type="submit">Registrarme e iniciar sesión</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+    
+        <footer  class="footer-container">
+            <div class="logo-container">
+                <img class="logoImg" src="./assets/icons/logo-book.png" alt="Logo">
+                <h1>Blancherrie</h1>
+            </div>
+            <div>
+                <ul>
+                    <li><strong>Contacto y ayuda</strong></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><strong>Síguenos</strong></li>
+                    <li><a href="" target="_blank">Instagram</a></li>
+                    <li><a href="" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><strong>Comprar</strong></li>
+                    <li><a href="#">Cómo comprar</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/shopCart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
