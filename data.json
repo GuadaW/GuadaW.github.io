@@ -1,0 +1,75 @@
+
+[
+    {
+        "id": 1,
+        "image": "./assets/image/mesa-alaia1.webp",
+        "tipo": "Mesa",
+        "nombre": "Alaia",
+        "precio": 1690,
+        "cantidad": 5
+    },
+    {
+        "id": 2,
+        "image": "./assets/image/mesa-anit1.webp",
+        "tipo": "Mesa",
+        "nombre": "Anit",
+        "precio": 665,
+        "cantidad": 7
+    },
+    {
+        "id": 3,
+        "image": "./assets/image/sofa-brida1.webp",
+        "tipo": "Sofa",
+        "nombre": "Brida",
+        "precio": 1415,
+        "cantidad": 10
+    },
+    {
+        "id": 4,
+        "image": "./assets/image/silla-ralf1.webp",
+        "tipo": "Silla",
+        "nombre": "Ralf",
+        "precio": 180,
+        "cantidad": 20
+    },
+    {
+        "id": 5,
+        "image": "./assets/image/silla-nayme1.webp",
+        "tipo": "Silla",
+        "nombre": "Nayme",
+        "precio": 275,
+        "cantidad": 20
+    },
+    {
+        "id": 6,
+        "image": "./assets/image/cuadro-lorelai1.webp",
+        "tipo": "Cuadro",
+        "nombre": "Lorelai",
+        "precio": 85,
+        "cantidad": 10
+    },
+    {
+        "id": 7,
+        "image": "./assets/image/escritorio-curie1.webp",
+        "tipo": "Escritorio",
+        "nombre": "Curie",
+        "precio": 586,
+        "cantidad": 15
+    },
+    {
+        "id": 8,
+        "image": "./assets/image/sofa-gilma1.webp",
+        "tipo": "Sofa",
+        "nombre": "Gilma",
+        "precio": 1535,
+        "cantidad": 10
+    },
+    {
+        "id": 9,
+        "image": "./assets/image/escritorio-dyana1.webp",
+        "tipo": "Escritorio",
+        "nombre": "Dyana",
+        "precio": 936,
+        "cantidad": 15
+    }
+]
