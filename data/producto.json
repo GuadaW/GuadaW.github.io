@@ -1,0 +1,225 @@
+[{
+    "id": 1,
+    "nombre": "NVIDIA GEFORCE 3060",
+    "precio": 149999,
+    "categoria": "PLACAS DE VIDEO",
+    "precioSpan": 194999,
+    "img": "PV1"
+},
+{
+    "id": 2,
+    "nombre": "NVIDIA GEFORCE 3070",
+    "precio": 199999,
+    "categoria": "PLACAS DE VIDEO",
+    "precioSpan": 249998,
+    "img": "PV2"
+},
+{
+    "id": 3,
+    "nombre": "NVIDIA GEFORCE 3080",
+    "precio": 269990,
+    "categoria": "PLACAS DE VIDEO",
+    "precioSpan": 350987,
+    "img": "PV3"
+},
+{
+    "id": 4,
+    "nombre": "NVIDIA GEFORCE 3090",
+    "precio": 444990,
+    "categoria": "PLACAS DE VIDEO",
+    "precioSpan": 578487,
+    "img": "PV4"
+},
+{
+    "id": 5,
+    "nombre": "MOTHER ROG CROSSHAIR VII",
+    "precio": 53724,
+    "categoria": "MOTHERBOARDS",
+    "precioSpan": 69840,
+    "img": "MB1"
+},
+{
+    "id": 6,
+    "nombre": "MOTHER AORUS ELITE B450",
+    "precio": 12584,
+    "categoria": "MOTHERBOARDS",
+    "precioSpan": 16359,
+    "img": "MB2"
+},
+{
+    "id": 7,
+    "nombre": "MOTHER ROG STRIX Z490F",
+    "precio": 28660,
+    "categoria": "MOTHERBOARDS",
+    "precioSpan": 37263,
+    "img": "MB3"
+},
+{
+    "id": 8,
+    "nombre": "MOTHER MSI Z390",
+    "precio": 25586,
+    "categoria": "MOTHERBOARDS",
+    "precioSpan": 33259,
+    "img": "MB4"
+},
+{
+    "id": 9,
+    "nombre": "MICRO INTEL CORE I9 10900F",
+    "precio": 52999,
+    "categoria": "PROCESADORES",
+    "precioSpan": 70057,
+    "img": "PR1"
+},
+{
+    "id": 10,
+    "nombre": "MICRO INTEL CORE I7 10700K",
+    "precio": 40999,
+    "categoria": "PROCESADORES",
+    "precioSpan": 51248,
+    "img": "PR2"
+},
+{
+    "id": 11,
+    "nombre": "MICRO INTEL CORE I5 10600KF",
+    "precio": 27999,
+    "categoria": "PROCESADORES",
+    "precioSpan": 34998,
+    "img": "PR3"
+},
+{
+    "id": 12,
+    "nombre": "MICRO INTEL CORE I3 10100F",
+    "precio": 16999,
+    "categoria": "PROCESADORES",
+    "precioSpan": 21248,
+    "img": "PR4"
+},
+{
+    "id": 13,
+    "nombre": "MEMORIA RAM KINGSTON 8GB DDR4",
+    "precio": 8499,
+    "categoria": "MEMORIA RAM",
+    "precioSpan": 10623,
+    "img": "RM1"
+},
+{
+    "id": 14,
+    "nombre": "MEMORIA RAM CORSAIR 16GB (2X8GB) DDR4",
+    "precio": 16999,
+    "categoria": "MEMORIA RAM",
+    "precioSpan": 21248,
+    "img": "RM2"
+},
+{
+    "id": 15,
+    "nombre": "MEMORIA RAM CORSAIR 32GB (2X16GB) DDR4",
+    "precio": 29999,
+    "categoria": "MEMORIA RAM",
+    "precioSpan": 37498,
+    "img": "RM3"
+},
+{
+    "id": 16,
+    "nombre": "MEMORIA RAM CRUCIAL BALLISTIX 4GB DDR4",
+    "precio": 2799,
+    "categoria": "MEMORIA RAM",
+    "precioSpan": 3498,
+    "img": "RM4"
+},
+{
+    "id": 17,
+    "nombre": "MEMORIA RAM ADATA 8GB DDR4",
+    "precio": 7299,
+    "categoria": "MEMORIA RAM",
+    "precioSpan": 9123,
+    "img": "RM5"
+},
+{
+    "id": 18,
+    "nombre": "MEMORIA RAM CORSAIR 32GB (2X16GB) DDR4",
+    "precio": 34999,
+    "categoria": "MEMORIA RAM",
+    "precioSpan": 43748,
+    "img": "RM6"
+},
+{
+    "id": 19,
+    "nombre": "MEMORIA RAM KINGSTON 4GB DDR4",
+    "precio": 3699,
+    "categoria": "MEMORIA RAM",
+    "precioSpan": 4623,
+    "img": "RM7"
+},
+{
+    "id": 20,
+    "nombre": "MEMORIA RAM OLOY WARHAWK 16GB DDR4",
+    "precio": 10499,
+    "categoria": "MEMORIA RAM",
+    "precioSpan": 13123,
+    "img": "RM8"
+},
+{
+    "id": 21,
+    "nombre": "MICRO AMD RYZEN 9 5950X",
+    "precio": 112999,
+    "categoria": "PROCESADORES",
+    "precioSpan": 141248,
+    "img": "PR5"
+},
+{
+    "id": 22,
+    "nombre": "MICRO AMD RYZEN 7 5700G",
+    "precio": 74999,
+    "categoria": "PROCESADORES",
+    "precioSpan": 93748,
+    "img": "PR6"
+},
+{
+    "id": 23,
+    "nombre": "MICRO AMD RYZEN 5 5600G",
+    "precio": 64999,
+    "categoria": "PROCESADORES",
+    "precioSpan": 81248,
+    "img": "PR7"
+},
+{
+    "id": 24,
+    "nombre": "MICRO AMD RYZEN 3 2200G",
+    "precio": 44999,
+    "categoria": "PROCESADORES",
+    "precioSpan": 56248,
+    "img": "PR8"
+},
+{
+    "id": 25,
+    "nombre": "GABINETE COOLER MASTER MASTERCASE H500",
+    "precio": 15999,
+    "categoria": "GABINETES",
+    "precioSpan": 19998,
+    "img": "GB1"
+},
+{
+    "id": 26,
+    "nombre": "GABINETE COOLER MASTER MASTERCASE H500P",
+    "precio": 22999,
+    "categoria": "GABINETES",
+    "precioSpan": 28748,
+    "img": "GB2"
+},
+{
+    "id": 27,
+    "nombre": "GABINETE AZZA ZIRCON 7000 BLACK",
+    "precio": 14999,
+    "categoria": "GABINETES",
+    "precioSpan": 18748,
+    "img": "GB3"
+},
+{
+    "id": 28,
+    "nombre": "GABINETE REDRAGON TAILGATE GC-702",
+    "precio": 8899,
+    "categoria": "GABINETES",
+    "precioSpan": 11123,
+    "img": "GB4"
+}
+]
