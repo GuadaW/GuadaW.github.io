@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    //OBTENER INFO DE STORAGE (ESTO ES PARA QUE SE GUARDE LO QUE SE AGREGA AL CARRITO EN LOCAL STORAGE)
     if ("carrito" in localStorage) {
         const datosGuardados = JSON.parse(localStorage.getItem("carrito"));
         if(datosGuardados.length > 0){
@@ -10,7 +9,6 @@ $(document).ready(function () {
         }
     }
 
-    //LLAMADA AL JSON DE PRODUCTOS
     const URLJSON = "../data/producto.json"
     $.get(URLJSON, function (datos, estado) {
         if(estado == "success"){
@@ -32,7 +30,6 @@ window.addEventListener('load', () => {
     $('#productos-grid').fadeIn('slow');
 })
 
-//Filtro de categorias 
 selectionUI(categorias, "#filtroCategorias");
 
 $('#filtroCategorias').change(function (e) { 
@@ -50,7 +47,6 @@ $('#filtroCategorias').change(function (e) {
     })
 });
 
-//Busqueda de productos
 $("#buscarProducto").keyup(function (e) {
     const buscados = this.value.toUpperCase();
     console.log(buscados);
@@ -61,7 +57,6 @@ $("#buscarProducto").keyup(function (e) {
     }
 });
 
-//Busqueda por precio
 $(".precioInput").change(function (e) {
     const min = $("#minProducto").val();
     const max = $("#maxProducto").val();
@@ -72,7 +67,6 @@ $(".precioInput").change(function (e) {
 })
 
 
-//Filtro menor y mayor 
 $("#filtroPrecio").change(function (e) {
     const valor = e.target.value
     console.log(valor);
