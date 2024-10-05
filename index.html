@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANDATECH</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-background">
+        <nav class="navBar">
+            <a href="index.html"><img src="imagenes/logo-navBar.jpg" alt="logo del sitio web"></a>
+            <div>
+                <ul>
+                    <li><a href="index.html" class="hvr-underline-from-center">PAGINA PRINCIPAL</a></li>
+                    <li><a href="#productos" class="hvr-underline-from-center">PRODUCTOS</a></li>
+                    <li><a href="#sponsors" class="hvr-underline-from-center">SPONSORS</a></li>
+
+                </ul>
+                <button class="btn5000505 position-relative" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="bi bi-cart text-white"></i><span id="carritoSpan"
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">CARRITO</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="carrito-fila2">
+            <span class="carrito-producto carrito-header carrito-columna">PRODUCTO</span>
+            <span class="carrito-precio2 carrito-header carrito-columna">PRECIO</span>
+            <span class="carrito-cantidad carrito-header carrito-columna">CANTIDAD</span>
+        </div>
+
+        <div class="offcanvas-body" id="carritoFinal"></div> 
+    </div>
+
+
+
+    <section>
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="imagenes/placa-de-video-nvidia.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="imagenes/asus-motherboard.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="imagenes/procesador-i9.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="imagenes/radeon.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <div id="productos">
+        <section id="productos-categorias">
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">  
+                        <label class="input-group-text" for="filtroCategorias">Categorias</label>
+                    </div>
+                    <select class="form-select" id="filtroCategorias"></select>
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Busqueda</span>
+                    </div>
+                    <input id="buscarProducto" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">  
+                        <label class="input-group-text" for="filtroPrecio">Precio</label>
+                    </div>
+                    <select class="form-select" id="filtroPrecio">
+                        <option value='TODOS' selected>TODOS</option>
+                        <option value='MENOR'>MENOR</option>
+                        <option value='MAYOR'>MAYOR</option>
+                    </select>
+                </div>
+
+                <div class="price-slider">
+                    <span class="min-max">MÍNIMO-MÁXIMO</span>
+                    <div class="slider-price">
+                        <input type="number" value="0" min="0" max="450000" id="minProducto" class="precioInput">
+                        <input type="number" value="450000" min="0" max="450000" id="maxProducto" class="precioInput">
+                    </div>
+                    <input value="0" min="0" max="450000" step="500" type="range" class="precioInput">
+                    <input value="450000" min="0" max="450000" step="500" type="range" class="precioInput">
+                </div>
+        </section>
+
+        <section id="productos-grid" style="display: none;">
+
+        </section>
+    </div>
+
+    <button class="btn5000505" id="btnFloat" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"><i class="bi bi-cart text-white"></i><span id="carritoSpan"
+            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span></button>
+
+    <footer class="p-4" id="sponsors">
+        <div class="row">
+            <div class="col-5 d-flex justify-content-center footer-logo">
+                <a href="index.html"><img src="imagenes/logo-navBar.jpg" alt="logo del sitio web"></a>
+            </div>
+            <div class="col-7 d-flex justify-content-around footer-logos">
+                <img src="imagenes/intel.svg" class="filter-white">
+                <img src="imagenes/nvidia.svg" class="filter-white">
+                <img src="imagenes/amd.svg" class="filter-white">
+                <img src="imagenes/logitech.svg" class="filter-white">
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/globales.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/producto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
