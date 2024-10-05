@@ -1,4 +1,4 @@
-function productosUI(productos, id) { //ESTO FUNCIONA NO TOCAR!!
+function productosUI(productos, id) { 
     $(id).empty();
     for (const producto of productos) {
         $(id).append(`<div class="productos-box">
@@ -12,9 +12,6 @@ function productosUI(productos, id) { //ESTO FUNCIONA NO TOCAR!!
     $('.btnCompra').on("click", agregarCarrito);
 }
 
-/* ---------------------------- FUNCIONALIDAD DEL CARRITO ---------------------------------- */
-
-//AGREGAR UN PRODUCTO AL CARRITO
 function agregarCarrito(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -46,7 +43,6 @@ function agregarCarrito(e) {
     carritoUI(carrito);
 }
 
-//DARLE FORMA
 function carritoUI(productos) {
     $(".rounded-pill").html(productos.length);
     $('#carritoFinal').empty();
